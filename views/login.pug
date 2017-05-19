@@ -1,0 +1,26 @@
+// Arun Thayanithy
+// S.n. 100887220
+// COMP 2406 - A4
+// Developed by: Arun Thayanithy 
+// Taken from: Mongo Lecture 10 Calendar Code courtesy of Andrew Runka 
+
+html
+	head
+		link(rel="stylesheet", type="text/css", href="/style.css")
+	body
+		h1 Please log in...
+		if warning
+			p=warning
+
+		form(action="/login", method="POST")
+			label(for='username') Name:
+			input#username(name='username')
+			br
+			label(for='password') Password:
+			input#password(name='password')
+			br
+			input(type='submit', value="Log in")#send
+			
+		p
+			| New users 
+			a(href="/register") click here.

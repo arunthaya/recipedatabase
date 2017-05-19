@@ -1,0 +1,16 @@
+{
+  "name": "09f_hellopug",
+  "version": "1.0.0",
+  "description": "A demo project for pug templating",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Andrew Runka",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta11"
+  }
+}

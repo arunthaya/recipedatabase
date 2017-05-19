@@ -1,0 +1,54 @@
+/*Arun Thayanithy
+	S.N: 100887220
+	Comp 2406 - A3
+	Developed by: Arun Thayanithy
+	Pieces of code was taken from: Andrew Runka's lectures for mongodb
+*/
+
+
+body{
+	background-color:#333;  
+	color:white;
+}
+
+h1{
+	color:#799;
+	text-shadow: 1px 2px #000;
+}
+button{
+	margin-top:5px;
+	border-radius:5px;
+	width:60px;
+	padding:4px;
+}
+#recipeViewButton{
+	background-color:#9f9;
+}
+#recipeSubmitButton{ 
+	background-color:#99f;
+}
+
+form{ 
+	border:solid 2px silver;
+	border-radius: 10px;
+	padding: 5px;
+	color:white;
+	background-color:#555;
+	box-shadow:3px 3px #000;
+}
+
+.check{
+	color:#0f0;
+}
+
+a{
+	color: #0f0;
+}
+
+a:hover {
+	color: pink;
+}
+
+a:active {
+	color: red;
+}

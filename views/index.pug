@@ -1,0 +1,44 @@
+// Arun Thayanithy
+// S.n. 100887220
+// COMP 2406 - A4
+// Developed by: Arun Thayanithy 
+
+
+html
+	head
+		link(rel="stylesheet", href="/style.css")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
+		script(src="/recipePage.js")
+	body
+		if user && user.auth
+			h1 #{user.username}'s Database!
+			p Recipe: 
+			select#recipeSelect
+			br
+			button#recipeViewButton View
+			hr
+			form 
+				p Name:
+				textarea#recipeName
+				p Duration:
+				textarea#recipeDuration
+				p Ingredients:
+				textarea#recipeIngredients
+				p Steps:
+				textarea#recipeDirections
+				p Notes:
+				textarea#recipeNotes
+			br
+			button#recipeSubmitButton Submit 
+			div#confirmed 
+				.check
+					p &#10003
+			p Click here to #[a(href='/logout') log out].
+		else 
+			h2 Not logged in.
+			p Please visit the #[a(href='/login') login page] to get started.
+			p Or visit the #[a(href='/register') registration page] to create a new account.
+
+
+
+	
