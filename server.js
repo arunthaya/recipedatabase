@@ -1,8 +1,4 @@
 /* 	Arun Thayanithy
-	S.N: 100887220
-	Comp 2406 - A3
-	Developed by: Arun Thayanithy
-	Pieces of code was taken from: Andrew Runka Mongo's Code Lectures
 */
 
 // Importing all the required modules needed
