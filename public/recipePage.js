@@ -1,5 +1,4 @@
 //Client-side interaction controller for Recipe Display page
-//Made for Comp2406 Winter 2017 - Assignment 4
 //Author: Andrew Runka
 
 
